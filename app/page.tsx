@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { supabase } from '@/lib/supabase'
+import { supabase } from '../lib/supabase'
 import { CheckCircle2, Calendar, Clock, Sparkles } from 'lucide-react'
 
 export default function ClientPage() {
